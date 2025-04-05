@@ -1,3 +1,3 @@
-# Simple C++ Homework Template
+# CSS343 Project 1: High Rise
 
-This template provides a simple setup with CMake, GoogleTest, and Valgrind.
+[Assignment Page](https://canvas.uw.edu/courses/1817334/assignments/10128974)

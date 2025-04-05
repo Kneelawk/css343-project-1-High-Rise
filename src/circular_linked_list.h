@@ -12,11 +12,11 @@ public:
 
     CircularLinkedList(std::initializer_list<T> list);
 
-    size_t size();
+    size_t size() const;
 
     T removeNext(size_t size);
 
-    T getCurrent();
+    T getCurrent() const;
 };
 
 #include "circular_linked_list.tcc"

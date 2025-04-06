@@ -12,6 +12,12 @@ TEST(circular_linked_list, comparison) {
     ASSERT_EQ(list, list);
 }
 
+TEST(circular_linked_list, comparison2) {
+    const CircularLinkedList<std::string> list{"a", "b", "c"};
+    const CircularLinkedList<std::string> list2{"a", "b", "c"};
+    ASSERT_EQ(list, list2);
+}
+
 TEST(circular_linked_list, remove_next) {
     CircularLinkedList<std::string> list{"a", "b", "c"};
     const CircularLinkedList<std::string> expected{"a", "c"};
